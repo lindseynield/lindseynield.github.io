@@ -8,15 +8,16 @@ baseurl                  : ""
 repository               : "lindseynield/lindseynield.github.io"
 
 # User settings
-username: Hi, I'm Lindsey :wave:
+username: "lindseynield"
+greeting: "Hi, I'm Lindsey 👋"
 user_title: Machine Learning & Data Engineer 
-email: lindsey.g.nield@gamil.com
+email: lindsey.g.nield@gmail.com
 github_username:  lindseynield
 linkedin_username: lindseynield
-research_gate: "https://www.researchgate.net/profile/Lindsey-Nield"
+researchgate_profile: "Lindsey-Nield"
 
 # Google-analytics
 google-analytics:
   id: ""
 
-exclude: ['package.json', 'src' , 'node_modules']
+markdown: kramdown
