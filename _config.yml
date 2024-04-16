@@ -1,0 +1,22 @@
+# Basic Site Settings
+locale                   : "en-US"
+title                    : "lindseynield"
+name                     : &name "Lindsey Nield"
+description              : &description "my personal website"
+url                      : https://lindseynield.github.io 
+baseurl                  : ""
+repository               : "lindseynield/lindseynield.github.io"
+
+# User settings
+username: Hi, I'm Lindsey :wave:
+user_title: Machine Learning & Data Engineer 
+email: lindsey.g.nield@gamil.com
+github_username:  lindseynield
+linkedin_username: lindseynield
+research_gate: "https://www.researchgate.net/profile/Lindsey-Nield"
+
+# Google-analytics
+google-analytics:
+  id: ""
+
+exclude: ['package.json', 'src' , 'node_modules']
