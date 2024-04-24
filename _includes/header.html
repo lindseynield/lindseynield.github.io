@@ -1,11 +1,14 @@
-<div id="particles-js">
+<div id="bgvid">
+  <video playsinline autoplay muted loop id="bgvid">
+    <source src="assets/media/background.mp4" type="video/mp4">
+  </video>
   <div class="header">
       <h1>
         <span class="site-title">{{site.greeting}}</span>
         <span class="site-description">{{site.user_title}}</span>
       </h1>
       <div class="header-icons">
-        <a aria-label="Send email" class="icon" href="https://github.com/{{ github_username }}">{% include header-icons/mail.svg %}</a>
+        <a aria-label="Send email" class="icon" href="#">{% include header-icons/mail.svg %}</a>
         <a aria-label="My Github" class="icon" href="https://github.com/{{ github_username }}">{% include header-icons/github.svg %}</a>
         <a aria-label="My LinkedIn" class="icon" href="https://www.linkedin.com/in/{{ linkedin_username }}">{% include header-icons/linkedin.svg %}</a>
       </div>

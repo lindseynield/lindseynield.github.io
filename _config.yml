@@ -2,7 +2,6 @@
 locale                   : "en-US"
 title                    : "lindseynield"
 name                     : &name "Lindsey Nield"
-description              : &description "my personal website"
 url                      : https://lindseynield.github.io 
 baseurl                  : ""
 repository               : "lindseynield/lindseynield.github.io"
@@ -14,7 +13,6 @@ user_title: Machine Learning & Data Engineer
 email: lindsey.g.nield@gmail.com
 github_username:  lindseynield
 linkedin_username: lindseynield
-researchgate_profile: "Lindsey-Nield"
 
 # Google-analytics
 google-analytics:
