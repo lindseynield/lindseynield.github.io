@@ -1,15 +1,6 @@
 <footer class="footer">
-    <p>&copy; {{site.username}}</p>
-    <p>Built with Jekyll and <span class="love">❤</span> by <a href="https://github.com/nrandecker">Nathan Randecker</a></p>
+    <p>&copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> {{site.username}}. All rights reserved. </p>
 </footer>
 <script src="{{ "/assets/js/sweet-scroll.min.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
 {% include google-analytics.html %}
-
-
-
-
-<!-- <footer>
-    <small>&copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>
-      {{ site.author.name }}. All rights reserved.</small>
-  </footer> -->
